@@ -1,0 +1,36 @@
+@media (max-width:600px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #a552dd;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding:20px ;
+    }
+    .menu-icons{
+        display: block;
+    }
+    #menulist{
+        transition: all 0.5s;
+    }
+    .Heading{
+        font-size: 15vw;
+    }
+    .Heading1{
+        font-size: 7vw;
+    }
+    p{
+        font-size: 3vw;
+        width: 90vw;
+    }
+    button{
+        font-size: 2vw;
+        margin-top: 10px;
+    }
+}

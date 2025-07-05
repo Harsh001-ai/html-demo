@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="media-queries.css" rel="stylesheet">
+</head>
+<body>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>VrWorld</h1>
+            </div>
+            <ul id="menulist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="1index.html">about</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <div class="menu-icons">
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            </div>
+        </nav>
+
+        <script>
+            let menulist = document.getElementById("menulist")
+            menulist.style.maxHeight = "0px";
+
+            function toogleMenu(){
+                if (menulist.style.maxHeight == "0px")
+                 {
+                    menulist.style.maxHeight = "300px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+        <div class="main">
+        <h1 class="Heading">Vr series</h1>
+        <h2 class="Heading1">AI World & Trasformation studio</h2>
+        <p>Experience the next dimension of technology with our cutting-edge VR solutions. Whether you're exploring fantastical worlds, training in realistic simulations, or connecting with others in virtual spaces, our platform delivers a seamless and lifelike environment that pushes the boundaries of imagination. With ultra-high fidelity graphics, responsive controls, and intuitive interaction, we bring your ideas, games, or training scenarios to life like never before. Welcome to a world where the only limit is your imagination.
+        </p>
+        <button>Subscribe</button>
+    </div>
+</body>
+</html>

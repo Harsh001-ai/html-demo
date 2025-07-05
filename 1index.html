@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1style.css">
+    <link rel="stylesheet" href="1media-queries.css">
+</head>
+<body>
+    <div class="master">
+        <nav class="navbar">
+            <div class="logo">
+                VrWorld
+            </div>
+            <ul id="menulist1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="1index.html">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+             <div class="menu-icons1">
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            </div>
+        </nav>
+
+        <script>
+            let menulist = document.getElementById("menulist1")
+            menulist.style.maxHeight = "0px";
+
+            function toogleMenu(){
+                if (menulist.style.maxHeight == "0px")
+                 {
+                    menulist.style.maxHeight = "300px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+        
+        <div class="main">
+            <div class="AG">
+            <h1 class="heading">About Us</h1>
+            <p class="para">
+                Virtual Reality (VR) is a technology that creates an immersive, computer-generated environment that users can interact with as if it were real. It uses devices like VR headsets, motion sensors, and controllers to simulate experiences that feel lifelike.
+            </p>
+        </div>
+        </div>
+    </div>
+            <div class="space">
+                <div class="video123">
+                    <!-- <video autoplay loop muted src="psvr2-vr-headset.mp4" height="450px"></video> -->
+                     <video autoplay loop muted src="psvr2-vr-headset.mp4" class="responsive-video">
+                </div>
+                <div class="Features">
+            <h2>Key Features</h2>
+            <ul class="points">
+                <li>
+                    Immersion: Makes you feel like you're inside a different world.
+                </li>
+                <li>
+                    Interaction: Allows you to move and manipulate virtual objects.
+                </li>
+                <li>
+                    Simulation: Recreates real-life settings or imaginary environments.
+                </li>
+            </ul>
+        
+            <h2>Common Uses of VR:</h2>
+            <ul class="points">
+                <li>Gaming: Creates interactive and 360-degree game worlds.</li>
+                <li>Education & Training: Used for medical simulations, flight training, and virtual classrooms.</li>
+                <li>Healthcare: Helps in therapy, rehabilitation, and surgical training.</li>
+                <li>Real Estate & Architecture: Offers virtual tours of buildings and homes.</li>
+                 <li>Entertainment: Used for VR movies, concerts, and virtual museums.</li>
+            </ul>
+        <button>Explore Now</button>
+    </div>
+</div>
+ <h3>
+        Our Team
+    </h3>
+<div class="main-card">
+   
+    <div class="card1">
+        <!-- <img src="img1.jpg" alt="team img1"> -->
+    </div>
+    <div class="card2">
+        <!-- <img src="pp1.jpg" alt="team img2"> -->
+    </div>
+    <div class="card3">
+        <!-- <img src="pp2.jpg" alt="team img3"> -->
+    </div>
+    <div class="card4">
+        <!-- <img src="pp3.jpg" alt="team img4"> -->
+    </div>
+
+</div>
+            <h2 class="community">
+        Join our community
+    </h2>
+    <p class="para1">
+        Be part of a growing community where imagination meets innovation. Whether you're a VR enthusiast, developer, gamer, or creator, our platform brings together like-minded pioneers shaping the future of immersive experiences.
+    </p>
+    <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h2>Vr Bit's</h2>
+      <p class="pp">Building immersive experiences for the future.</p>
+    </div>
+    <div class="footer-links">
+      <!-- <h3>Quick Links</h3> -->
+      <ul>
+        <li><a href="https://www.facebook.com/"><img src="Facebook-Free-PNG (1).png" height="50px" alt="facebook image"></a></li>
+        <li><a href="#"><img src="insta.png" height="50px" alt="instagram image"></a></li>
+        <li><a href="https://www.whatsapp.com/"><img src="Whatsapp-Logo-Download-Free-PNG (1).png" height="70px" alt="whatsapp image"></a></li>
+        <li><a href="https://www.google.com/"><img src="image8-2-removebg-preview.png" height="50px" alt="google image"></a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <!-- <h3>Contact</h3> -->
+      <p>Email: jhah14687@gmail.com</p>
+      <p>Phone: +91 6290177421</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 YourWebsite. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
